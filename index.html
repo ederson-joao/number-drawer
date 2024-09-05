@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Numbers</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/style.css"/>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="./img/logo.png" alt="logo">
+            <h1>NUMBERS</h1>
+        </header>
+        
+        <section class="title">
+            <span>ONLINE - GRATUITO</span>
+            <h2>SORTEADOR <br>DE NÚMEROS</h2>
+        </section>
+
+        <section class="main">
+            <span>QUERO SORTEAR:</span>
+            <p>Defina o intervalo e a quantidade de números, clique em 
+            "Sortear" e veja os resultados na tela. É rápido e fácil!</p>
+
+            <div class="insert">
+                <div class="input"><span>NÚMEROS</span><input id="numbers" type="number"/></div>
+                <div class="input"><span>DE</span><input id="start" type="number"/></div>
+                <div class="input"><span>ATÉ</span><input id="end" type="number"/></div>
+            </div>
+            <div class="buttons">
+                <div class="checkbox">
+                    <input type="checkbox">
+                    <span>Não repetir número</span>
+                </div>
+                <button>SORTEAR</button>
+            </div>
+        </section>
+
+        <section class="result">
+            <span>Resultado do Sorteio</span>
+            <div class="numbers">
+                <!-- Números sorteados serão exibidos aqui -->
+                <span class="number">12</span>
+                <span class="number">7</span>
+                <span class="number">23</span>
+                <!-- Adicione mais números conforme necessário -->
+            </div>
+            <button class="reset-button">Reiniciar</button>
+        </section>
+        
+
+        <section class="info">
+            <div>
+                <img src="./img/explanation.png" alt="explanation"><span>Como funciona o sorteador de números?</span>
+                <span>O sorteador utiliza um algoritmo de geração aleatória para 
+                criar números dentro do intervalo especificado pelo usuário.</span>
+            </div>
+
+            <div>
+                <img src="./img/explanation.png" alt="explanation"><span>Posso escolher o intervalo dos números?</span>
+                <span>Sim, você pode definir os valores mínimo 
+                e máximo para o intervalo dos números sorteados.</span>
+            </div>
+        </section>
+    </div>
+    <!-- JS -->
+    <script src="/script.js"></script>
+</body>
+</html>

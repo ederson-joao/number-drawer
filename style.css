@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #f0f0f0; 
+    min-height: 100vh; 
+}
+
+.container {
+    width: 100%;
+    max-width: 800px;
+    background-color: white; 
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+header {
+    margin: 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    margin: 0;
+    padding: 0 0 0 10px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.title span {
+    font-size: 20px;
+}
+
+.title h2 {
+    margin: 10px 0 40px 0;
+    font-size: 40px;
+}
+
+.main {
+    display: block;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.main span {
+    font-size: 20px;
+}
+
+.main p {
+    margin: 10px 0 40px 0;
+}
+
+.insert {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.input {
+    width: 120px;
+}
+
+.input input {
+    width: 100%;
+    height: 56px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.buttons {
+    margin: 10px 0 40px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buttons button {
+    width: 329px;
+    height: 56px;
+}
+
+.result {
+    display: none;
+    text-align: center;
+    margin: 20px 0; /* Espaçamento entre as seções */
+    padding: 20px;
+    background-color: #f8f8f8; /* Cor de fundo suave para destacar a seção */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra leve para dar profundidade */
+}
+
+.result span {
+    display: block;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333; /* Cor do texto */
+}
+
+.numbers {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* Permite que os números se ajustem na linha */
+    gap: 10px; /* Espaçamento entre os números */
+}
+
+.number {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 20px;
+    background-color: #007bff; /* Cor de fundo dos números */
+    color: white; /* Cor do texto dos números */
+    border-radius: 4px; /* Bordas arredondadas nos números */
+}
+
+.reset-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #dc3545; /* Cor de fundo do botão */
+    color: white; /* Cor do texto do botão */
+    border: none; /* Remover borda padrão */
+    border-radius: 4px; /* Bordas arredondadas no botão */
+    cursor: pointer; /* Mudança de cursor ao passar sobre o botão */
+    transition: background-color 0.3s ease; /* Animação suave na cor de fundo */
+}
+
+.reset-button:hover {
+    background-color: #c82333; /* Cor de fundo ao passar o mouse */
+}
+
+
+.info {
+    margin: 0 30px 0 30px;
+}
